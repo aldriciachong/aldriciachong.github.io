@@ -1,0 +1,16 @@
+/* our style file: a css sheet*/ 
+
+h1 {
+	colour:  light blue;
+
+}
+
+#hero{
+	font-size:  30px;
+	color: black;
+}
+
+h1 {
+	font-size: 15px;
+	color: white;
+}
