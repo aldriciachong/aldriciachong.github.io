@@ -1,0 +1,156 @@
+/* OUR STYLE FILE: A CSS SHEET */
+Html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+
+
+.break {
+	border-style: solid;
+	border-color: #ffe800;
+	border-width: 4px;
+	padding padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 37px;
+	height: 60px;
+	margin-top: 40px;
+	margin-bottom: none;
+	border-left: none;	
+	border-right: none;
+}
+
+/* nav section */
+#navbox {
+	float: right;
+	height: 120px;
+	border-style: solid;
+	border-color: #ffe800;
+	border-width: 8px;
+	border-top: none;
+	border-right: none;
+	margin-top: 0px;
+	padding-bottom: 400px;
+	padding-top: 20px;
+	padding-left: 26px;
+	padding-right: 38px;
+}
+
+.navspacing{
+	padding: 15px;
+	padding-left: 5px;
+}
+
+nav{
+	font-family: poppins;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+header ul {
+	list-style: none;
+}
+/*image section*/
+
+#hattie4{
+	width: 545px;
+	height: 424px;
+	padding: 20px;
+	border-style: solid;
+	border-color: #ffe800;
+	border-width: 4px;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}	
+
+
+#hattie {
+	width: 600px;
+	height: 424px;
+	padding: 20px;
+	border-style: solid;
+	border-color: #ffe800;
+	border-width: 4px;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	margin-right: 0px;
+	margin-left: 0px;
+
+
+}
+
+/*title*/
+
+h1{
+	font-family: poppins;
+	font-variant: ;
+	font-weight: bold;
+	font-size: 95px;
+	color: red;
+	padding-bottom: 20px;
+	margin: 0px;
+}
+
+#title{
+	width: 1173px;
+	height: 150px;
+	padding: 10px;
+	padding-bottom: 15px;
+	padding-left:20px;
+	border-style: solid;
+	border-color: #ffe800;
+	border-width: 4px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin: 0px;
+}
+
+
+.break2 {
+	border-style: solid;
+	border-color: #ffe800;
+	border-width: 4px;
+	padding padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 37px;
+	height: 30px;
+	background-color:#ffe800;
+	margin-bottom: none;
+	border-left: none;	
+	border-right: none;
+}
+
+
+h4{
+	font-family: poppins;
+	font-style: regular;
+	font-weight: regular;
+	font-size: 50px;
+	color: red;
+	margin: 0px;
+}
+
+#h4{
+	border-style: solid;
+	border-color: #82d8d5;
+	border-width: 10px;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+	width: 1100px;
+	height: 500px;
+	margin: 32px;
+	margin-left: 50px;
+	padding: 20px;
+}
+
+
