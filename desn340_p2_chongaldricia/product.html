@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Page</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- One of the fonts we use is Poppins. I went to Google Fonts and copy&pasted the text for Poppins into my code. I also need the font family syntax for my CSS:
+    font-family: 'Poppins', sans-serif;
+     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+
+   <!--Header part-->
+  <header class="container-fluid"> <!-- go check out the universal classes in our CSS -->
+       <div class="container">
+        <div class="row">
+          <div class="col-md-2" id="logo">
+          <a href="index.html">
+            <img src="images/We53Logo1.svg" alt="We53 Logo">
+          </a>
+        </div>
+          <nav class="col-md-8 offset-md-2">
+            <ul class="nav-link">
+              <li><a href="about.html">About</a></li>
+              <li><a href="#">Downloads</a></li>
+              <li><a href="#">Wetransfer</a></li>
+              <li><a id="search">What are you looking for?</a></li>
+            </ul>
+          </nav>  
+        </div>
+      </div>  
+    </header>
+
+
+
+<!-- The part is the hero/landing-->
+
+
+   <section class="container-fluid"  id="producthero">
+      <div class="container" >
+        <div class="row">
+          <div class="producthero" class="col-sm-5">
+          <img src="images/pencil.png">
+          <h2>No.2</h2>
+          <br>
+          <h2 id="productpencil">Pencil</h2>
+          <br>
+          <p>Make and collaborate with confidence. Our design tools make the digital world feel closer and more real.</p>
+          <br>
+          <a class="productCTA" href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Think With Your Hands Section-->
+  <!--  <section class="container" id="thinkhand">
+      <div>
+        <h1>Think With Your Hands.</h1>
+        <p>The most natural and expressive tool for getting ideas on Paper. Rest your hand comfortably on the screen and draw, erase, and blend with ease.</p>
+      </div>
+    </section>-->
+
+    <section>
+      <div id="thinkhand">
+        <h1>Think With Your Hands.</h1>
+        <p>The most natural and expressive tool for getting ideas on Paper. Rest your hand comfortably on the screen and draw, erase, and blend with ease.</p>
+      </div>
+      <div id="productsplash">
+        
+      </div>
+
+    </section>
+
+   <!-- fix this 
+    <section id="splash2"></section>
+  -->
+
+
+    <section class="productcards" id="producthero">
+        <div id="surfacepressure">
+          <div class="card-chunk">
+            <h2>Surface Pressure</h2>
+            <p>Expressive from every angle. Pencil's unique tip is shaped to create lines of all sizes without any settings. Use the point for fine details and the angled edge for broad strokes.</p>
+            <a class="surfaceCTA" href="#">Explore</a>
+          </div>
+
+
+          <div>
+            <img src="images/paper-detail.png" alt="Pencil product shown drawing a building">
+          </div>
+        </div>
+    </section>
+
+    <section class="simplyworks">
+      <div class="container">
+      <div id="simplyworks">
+        <h1>Simply Works.</h1>
+        <p>The best tools don't require a lot of fuss - they just work. <br>With Pencil, we've radically simplified things like charging and wireless connection so you can spend less time in menus and more time creating.</p>
+      </div>
+      </div>
+  
+    <!--3 how it works-->
+      <div id="categories" >
+        <div class="category1">
+          <img src="images/power.png">
+          <h3>Power It Up</h3>
+          <p>Under normal use, you won't need to recharge Pencil for about a month. The battery can slide out and recharged on any standard USB port in under 90 minutes.</p>
+        </div>
+
+
+        <div class="category1">
+          <img src="images/connection.png">
+          <h3>Connection</h3>
+          <p>Bluetooth connection as it should be: no settings menus, no confusing pairing rituals. Just press Pencil's tip to the screen. Clear, stable, simple... easy as falling in love.</p>
+        </div>
+
+
+        <div class="category1">
+          <img src="images/play.png">
+          <h3>Plays Nicely</h3>
+          <p>Palm Rejection, Erase, and Blend work only on Paper and other supported applications, but Pencil also works as a non-connected stylus in any other app and on any touchscreen device.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+   <!--FOOTER-->
+<section  id="producthero">
+  <footer class="container-fluid" id="productfooter">
+      <div class="container">
+        <div class="row" id="partners">
+          <h4>Made for Today's Teams</h4>
+          <ul class="col-12">
+            <li><img src="images/shopify.png" alt="shopify logo" id="shopifyimg"></li>
+            <li><img src="images/airbnb.png" alt="airbnb logo" id="airbnbimg"></li>
+            <li><img src="images/scholastic.png" alt="scholastic logo" id="scholasticimg"></li>
+            <li><img src="images/sap.png" alt="sap logo" id="sapimg"></li>
+            <li><img src="images/intercom.png" alt="intercom logo" id="intercomimg"></li>
+
+
+
+          </ul>
+        </div>
+
+        <hr style="width:100%;text-align:center;margin:0;color: #fff;">
+
+        <div class="row" id="foot-links">
+          <div class="col-md-3">
+            <a href="index.html"><img src="images/We53Logo1.svg" alt="We53 Logo"></a>
+          </div>
+          <nav class="col-md-2" id="foot-prod">
+            <ul>
+              <li>Products</li>
+              <li>Overview</li>
+              <li>WeTransfer</li>
+              <li>Paste&copy</li>
+              <li>Collect</li>
+              <li>Paper&copy</li>
+              <li>Pricing</li>
+            </ul>
+          </nav>
+          <nav class="col-md-2" id="foot-abo">
+            <ul>
+              <li>Company</li>
+              <li>Advertising</li>
+              <li>B Corp</li>
+              <li>Jobs</li>
+              <li>Newsroom</li>
+            </ul>
+          </nav>
+          <nav class="col-md-2" id="foot-res">
+            <ul>
+              <li>Help Center</li>
+              <li>Accessibility</li>
+            </ul>
+          </nav>
+          <nav class="col-md-2" id="foot-exp">
+            <ul>
+              <li>WePresent</li>
+              <li>Ideas Report</li>
+              <li>Creative Hubs Index</li>
+              <li>Blog</li>
+            </ul>
+          </nav>
+        </div>
+ <hr style="width:100%;text-align:center;margin:0;color: #fff;">
+      <div class="row" id="bottom">
+        <div class="col-md-auto" id="bottom"></div>
+          <div class="col-md-9">
+            <div id="legal">
+              <a href="#">Terms</a>
+              |
+              <a href="#">Privacy</a>
+              <span>&copy2022 WeTransfer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </section>
